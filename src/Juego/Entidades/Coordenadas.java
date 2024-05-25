@@ -1,6 +1,4 @@
-package Juego;
-
-import java.util.Objects;
+package Juego.Entidades;
 
 public class Coordenadas {
     /**

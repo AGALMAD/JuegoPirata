@@ -1,4 +1,4 @@
-package Juego;
+package Juego.Entidades;
 
 public class Entidad {
 
@@ -15,17 +15,14 @@ public class Entidad {
         this.posicion = posicion;
     }
 
-    /**
-     * Constructor para pasarle la skin y la posicion ya instanciada
-     * @param skin caracter que va tener cada entidad
-     * @param x posicion X
-     * @param y posicion Y
-     */
-    public Entidad(char skin, int x, int y) {
-        this.skin = skin;
-        this.posicion = new Coordenadas(x,y);
+    /**Métodos getter para obtener la posición y la skin de la entidad **/
+    public Coordenadas getPosicion() {
+        return posicion;
     }
 
+    public char getSkin() {
+        return skin;
+    }
 
     @Override
     public String toString() {
