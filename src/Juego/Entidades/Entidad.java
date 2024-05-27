@@ -20,6 +20,11 @@ public class Entidad {
         return posicion;
     }
 
+
+    public void setPosicion(Coordenadas posicion) {
+        this.posicion = posicion;
+    }
+
     public char getSkin() {
         return skin;
     }
@@ -31,4 +36,6 @@ public class Entidad {
                 ", posicion=" + posicion +
                 '}';
     }
+
+
 }

@@ -141,6 +141,8 @@ public class Tablero {
                 tablero[oldY][oldX] = new Entidad(VACIO, new Coordenadas(oldX,oldY));
                 tablero[newY][newX] = c;
             }
+            else //sino, vuelve a la posicion inicial
+                c.setPosicion(new Coordenadas(oldX,oldY));
 
         }
 
