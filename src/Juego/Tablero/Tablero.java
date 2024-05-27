@@ -92,7 +92,7 @@ public class Tablero {
             tablero[newY][newX] = new Entidad(DEAD,new Coordenadas(newX,newY));
             return -1;
         }
-        //Si ha encontrado el tesoro, retorna 2
+        //Si ha encontrado el tesoro, retorna -2
         if (tablero[newY][newX] instanceof Tesoro) {
             tablero[oldY][oldX] = new Entidad(VACIO,new Coordenadas(oldX,oldY));
             tablero[newY][newX] = new Entidad(WIN,new Coordenadas(newX,newY));

@@ -102,6 +102,7 @@ public class Main {
 
 
         tablero.mostrarTablero();
+
         //Si ha ganado, recibe una copa
         if (win) {
             System.out.println("Has encontrado el tesoro\n");
